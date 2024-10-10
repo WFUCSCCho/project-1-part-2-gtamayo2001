@@ -140,6 +140,10 @@ This is a nifty little program that I wrote that will write NAMD configuration f
 
 12. Next we will set up the SLURM script for running MD simulations on the cluster. Again, this is a generic script for any biomolecule. You will need to modify it using the __nano__ program..
 
+How to pull all new files from git:
+git reset --hard
+git pull
+
   a. Open “md-equil.slurm” and "md-dyna.slurm" using __nano__. 
   
   b. For both files, replace all instances of “[username]” with your username and [ID] with “45S”. Also, replace the instance of "[repository-id]" with yours.
